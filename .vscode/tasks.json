@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar Fortran",
+      "type": "shell",
+      "command": "gfortran",
+      "args": [
+        "integrais_gaussianas.f90",
+        "integrais_uniformes.f90",
+        "main_integral.f90",
+        "-o",
+        "main_integral.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
