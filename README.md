@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Integrais em Fortran
 
 Este projeto contém implementações de métodos numéricos de integração em **Fortran** (Retangular, Trapézio, Simpson 1/3, Simpson 3/8 e Gauss-Legendre).  
@@ -21,4 +22,6 @@ O objetivo é didático: mostrar como organizar subrotinas em Fortran e como com
 5. Para rodar:
    ```powershell
    .\main_integral.exe
+=======
+>>>>>>> 9712500f02e4cf74b34f7583df74fdd41a36e7c3
 
